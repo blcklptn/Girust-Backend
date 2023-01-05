@@ -11,7 +11,7 @@ async def register():
 
 @router.post('/auth')
 async def auth():
-    pass
+        return {"token": "qweqwe", "refresh_token": "dfgdgdfgdfg"}
 
 @router.post('/refresh_token')
 async def refresh():
